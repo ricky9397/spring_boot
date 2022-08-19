@@ -1,2 +1,2 @@
 # 스프링부트
-## AOP
+## IOC/DI 와 관련된 Annotation
