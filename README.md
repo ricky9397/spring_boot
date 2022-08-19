@@ -8,6 +8,11 @@
 - @Resource : @AutoWired + @Qualifier 의 개념으로 이해
 ```
 
+![image](https://user-images.githubusercontent.com/84554175/185674171-f2945045-4704-46f9-b3e9-70fd3749a379.png)
+
+
+
+
 ## 스프링 AOP (Aspect Oriented Programming) 
 AOP는 Aspect Oriented Programming의 약자로 관점 지향 프로그래밍이라고 불린다. 관점 지향은 쉽게 말해 어떤 로직을 기준으로 핵심적인 관점, 부가적인 관점으로 나누어서 보고 그 관점을 기준으로 각각 모듈화하겠다는 것이다. 여기서 모듈화란 어떤 공통된 로직이나 기능을 하나의 단위로 묶는 것을 말한다. 
  
@@ -36,6 +41,10 @@ PointCut : JointPoint의 상세한 스펙을 정의한 것. 'A란 메서드의 �
 - @AfterReturning : AOP 메소드의 호출이 정상일 때 실행
 - @AfterThrowing : AOP 시 해당 메소드가 예외 발생시 지정
 ```
+![image](https://user-images.githubusercontent.com/84554175/185674222-9e5deafa-dd80-4dd7-bb90-02d406a827bc.png)
+
+
+
 ## 실무에서 자주 쓰는 AOP
 - 캐쉬처리, 로깅처리, 함수 실행시간 분석 처리 등등...
 
